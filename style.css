@@ -1,0 +1,566 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+section {
+    padding: 100px 20px ;
+}
+
+
+/*======== styling the header =========*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff851a;
+    height:80px;
+    position: fixed;
+    right: 0px;
+    left: 0;
+    box-shadow: 0px 0px 20px  #ff851a  ;
+}
+header img{
+    width: 200px;
+    height: 100%;
+    border:#ff851a ;
+    margin-left: 20px;
+}
+#navbar-container {
+    width: 130%;
+    text-align: center;
+    
+}
+#navbar-container nav {
+    display: flex;
+    justify-content: space-around;
+}
+#navbar-container a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/* ======= styling the home section ========= */
+
+#home-section {
+    background-color: rgba(245, 10, 10, 0.973);
+    height: 320px;
+    text-align: center;
+    text-shadow: 0px 0px 8px lightblue;
+    padding: 200px 0px 150px 0px ;
+    
+}
+
+
+#home-section h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+
+
+
+/* ======== styling te products section ========= */
+
+
+#products-section{
+    padding: 100px auto;
+    color: white ;
+    background-color: black;
+    /* height: 800px; */
+}
+
+#products-header{
+    padding-top: 60px;
+}
+.special-header{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.special-header h1{
+font-size: 80px;
+font-weight: 800;
+margin: 0;
+letter-spacing: -7px;
+color: #222221;
+text-shadow: 0px 0px 10px rgb(182, 179, 179);
+margin-top: -40px;
+}
+
+.special-header p{
+font-size: 20px;
+margin-top: -25px;
+letter-spacing: -1px;
+color: #c0bfbf;
+}
+
+#products-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#products-section h2{
+    text-align: center;
+}
+
+#ps3-card,#ps4-card,#ps5-card{
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+#products-section button{
+    padding: 10px;
+    font-size: 15px;
+    transition: 1s;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#ps3-card {
+    box-shadow: 0px 0px 65px rgb(51, 255, 0);
+    text-shadow: 0px 0px 10px rgb(4, 236, 4);
+    border-radius: 20px;
+}
+
+#ps3-card img{
+    box-shadow: 0px 0px 30px rgb(51, 255, 0);
+}
+
+#ps3-card button{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px rgb(4, 236, 4);
+    color: rgb(4, 236, 4);;
+    background-color: black;
+    font-weight: bold;
+}
+
+#ps4-card{
+    box-shadow: 0px 0px 65px blue;
+    text-shadow: 0px 0px 10px blue;
+    border-radius: 20px;
+}
+
+#ps4-card img{
+    box-shadow: 0px 0px 30px blue;
+}
+
+#ps4-card button{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px rgb(39, 4, 236);
+    color: rgb(8, 4, 236);;
+    background-color: black;
+    font-weight: bold;
+}
+
+#ps5-card{
+    box-shadow: 0px 0px 65px yellow;
+    text-shadow: 0px 0px 10px rgb(232, 236, 4);
+    border-radius: 20px;
+}
+
+#ps5-card img{
+    box-shadow: 0px 0px 30px yellow;
+}
+
+#ps5-card button{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px rgb(220, 236, 4);
+    color: rgb(174, 236, 4);;
+    background-color: black;
+    font-weight: bold;
+}
+
+img{
+    border: 1px double;
+    width: 100%;
+    height: 250px;
+}
+
+/* styling the games section*/
+
+
+
+#games-section {
+    background-color: black;
+
+    
+}
+#our-games h1{
+    text-shadow: 0px 0px 20px red;
+}
+#games-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#games-container div {
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+    box-shadow: 0px 0px 35px red;
+    border-radius: 7px;
+    font-size: 12px;
+    height: 700px;
+    padding: 30px 30px 0 30px;
+    width: 320px;
+}
+#games-section img{
+    width: 300px  ;
+}
+
+#games-section div button{
+    color: rgb(248, 252, 9);
+    background-color: black;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0px 0px 20px rgb(248, 252, 9);
+}
+/* ===============Styling the table=============== */
+
+
+#games-table{
+    padding: 100px 0px;
+    background-color: black;
+}
+#contact-us-header{
+    height: 160px;
+    margin-bottom: 0px;
+}
+#contact-us-header h1{
+    text-shadow: 0px 0px 10px rebeccapurple;
+}
+table{
+    /* height: 500px; */
+    /* width: 900px; */
+    margin:auto;
+    text-align: center;
+    box-shadow: 0px 0px 15px gray;
+}
+table img{
+border: none;
+}
+th  {
+    background-color: gray;
+    padding: 20px 30px;
+}
+td{
+    background-color: rgb(185, 178, 178);
+    width: 250px;
+    /* padding: 10px ; */
+}
+
+/* ===============Styling the plans section=============== */
+
+#plans-section{
+    background-color: black;
+}
+
+#plans-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-bottom: 100px;
+}
+#our-plans h1{
+text-shadow: 0px 0px 20px #cca00e;
+}
+.card{
+
+    padding: 40px ;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    /* padding-bottom: 130px; */
+    height: 680px;
+}
+.card ul li{
+    margin: 12px 0px;
+    padding: 4px;
+    text-align: left;
+}
+.card hr{
+    height: 4px;
+    border-radius: 7px;
+    border: none;
+}
+.card button{
+    padding: 9px;
+    border: 3px;
+    border-radius: 6px;
+    border-style: ridge;
+    transition: 0.5s;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.card button:hover{
+    padding: 12px;
+    border: 3px;
+    border-radius: 6px;
+    border-style: ridge;
+    font-size: medium;
+    cursor: pointer;
+}
+
+span{
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px ;
+}
+#bronze{
+    color: rgb(143, 94, 94);
+    font-size: 25px;
+    text-shadow: 0px 0px 5px rgb(61, 21, 21);
+}
+#silver{
+    color: rgb(161, 161, 154);
+    font-size: 25px;
+    text-shadow: 0px 0px 5px rgb(146, 143, 143);
+}
+#gold{
+    color: #cca00e;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #856706;
+}
+#Bronze{
+    color: rgb(201, 190, 190);
+    background-color: rgb(128, 79, 40);
+    box-shadow: #69331e 0px 0px 46px;
+    border: #421e10 2px;
+    border-style: double;
+}
+#Bronze button{
+    color: rgb(190, 190, 190);
+    background-color: rgb(78, 44, 44);
+    box-shadow: #421e10 0px 0px 46px;
+}
+#Bronze hr{
+    background-color: brown;
+}
+#Silver{
+    color: rgb(190, 190, 186);
+    background-color: #56575a;
+    box-shadow: #696766 0px 0px 46px;
+    border: #3b3b3a 2px;
+    border-style: double;
+}
+#Silver button{
+    color: rgb(190, 190, 181);
+    background-color: #48494b;
+    box-shadow: #000000 0px 0px 46px;
+}
+#Silver hr{
+background-color: #97989c;
+}
+#Gold{
+    color: #cca00e;
+    background-color: black;
+    box-shadow: #cca00e 0px 0px 46px;
+    border: #cca00e 2px;
+    border-style: double;
+}
+#Gold button{
+    color: #cca00e;
+    background-color: black;
+    box-shadow: #cca00e 0px 0px 26px;
+}
+#Gold hr{
+    background-color: #cca00e;
+}
+
+
+/* ===============Styling the about us section=============== */
+
+
+#About-section{
+    background-color: black;
+    height: 700px;
+}
+#About-us-header h1{
+text-shadow: 0px 0px 10px #0e3acc;
+}
+#About-us-container{
+    display: flex;
+    justify-content: center;
+}
+#about-us{
+    margin-left: 40px;
+}
+
+#about-us-image {
+    height:600px;
+    width: 35%;
+}
+#about-us-image img{
+    height:550px;
+    box-shadow: 0px 0px 20px #0e3acc;
+    width: 90%;
+    margin-left: 40px;
+    border: 3px solid #11034d;
+    border-radius: 6px;
+}
+
+#about-us h1{
+    font-size: 170%;
+    color: rgb(10, 115, 207);
+    text-shadow: 0px 0px 30px rgb(10, 139, 252);
+    text-align: left;
+}
+
+#about-us p{
+    margin-top: 30px;
+    font-size: 110%;
+    font-weight: 600;
+    color: rgb(182, 212, 238);
+    text-shadow: 0px 0px 20px rgb(99, 170, 231);
+    text-align: left;
+}
+
+/* ===============Styling the contact us section=============== */
+
+
+
+footer #icons i {
+    background-color: #cbcace;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: rgb(61, 60, 60);
+}
+footer #icons i:hover{
+    cursor: pointer;
+}
+footer #icons {
+    text-align: center;
+}
+footer{
+    background-image: url("images/playstation-shop.jpg");
+    height:480px;
+    background-position: 0px -150px;
+    position: relative;
+    z-index: 0;
+}
+
+footer::after {
+    content:"";
+    background-color: rgba(0, 0, 0, 0.555);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.contact {
+    color:#cdccd1;
+    text-align: center;
+    margin: 30px;
+}
+footer h1{
+    margin-top: 0px;
+    color:#cbcace;
+    text-align: center;
+    font-size: 35px
+}
+
+footer #contact-div{
+padding-top: 30px;
+}
+footer hr{
+    width: 70%;
+    background-color: #cdccd1;
+    height: 1.5px;
+    border-radius: 7px;
+    margin-bottom: -2px;
+}
+footer a{
+    display:block;
+    color: #cdccd1;
+    font-size: 24px;
+    padding-bottom: 20px;
+    width: 19%;
+    margin:auto;
+    text-align: center;
+}
+
+footer h4{
+    border-top:  2px solid #cbcace;
+    font-size: 18px;
+    width: 900px;
+    margin: 2px auto;
+    color:#cdccd1;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 55px;
+}
+
+@media (max-width:1065px) {
+    #navbar-container a{
+width: 70%;
+    }
+    
+    #home-section{
+        font-size: 70%;
+    }
+    footer{
+        height:100%;
+}
+}
+
+@media (max-width:900px) {
+    footer h4{
+        width: 80%;
+    }
+    #about-us-image{
+        display: none;
+    }
+
+}
+
+@media (max-width:850px) {
+    #about-us p{
+        font-size: 90%;
+    }
+    #about-us h1{
+        font-size: 90%;
+    }
+    #games-table{
+        display: none;
+    }
+}
+@media (max-width:710px){
+    #navbar-container{
+        display: none;
+    }
+        .special-header h1{
+            font-size: 300%;
+        }
+        .special-header p{
+            font-size: 100%;
+        }
+
+}
